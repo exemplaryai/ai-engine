@@ -1,5 +1,10 @@
 <p align="center">
-  <a href="https://docs.exemplary.ai/?utm_source=github"><img src="https://i.imgur.com/QuXz7Jv.png" alt="exemplart.ai" width="230" /></a> 
+  <a href="https://docs.exemplary.ai/?utm_source=github">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/exemplaryai/ai-engine/main/.github/images/logo-dark.png">
+      <img alt="exemplary.ai logo" width="230" src="https://raw.githubusercontent.com/exemplaryai/ai-engine/main/.github/images/logo.png">
+    </picture>
+  </a>
 </p>
 <p align="center">
 <b>Unified API for Multi-Provider ASR/Speech To Text and NLP</b>
