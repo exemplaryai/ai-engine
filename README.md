@@ -26,6 +26,12 @@
 <img width="100%" alt="How it works" src=".github/images/how-it-works.png">
 </p>
 
+## Demo
+Use our [API playground](https://docs.exemplary.ai/playground) to visually build an api call. Use your choice of providers and couple them with NLP & NLU tasks.
+<p align="center">
+<img width="100%" alt="How it works" src=".github/images/playground-demo.gif">
+</p>
+
 > :information_source: **Release Schedule**: We're set to release our code by Oct 1st, 2022 under the [Apache License 2.0](LICENSE). For early access, email us at [hello@exemplary.ai](mailto:hello@exemplary.ai)
 
 At exemplary.ai, we're on a mission to help developers build Conversational AI apps faster, leverage advances in language technology, with the help of our API & Toolkit.
@@ -112,13 +118,6 @@ Check out our [API Reference here.](https://docs.exemplary.ai/#quick-start)
 
 We frequently add new providers! 
 **Coming soon**: Microsoft Azure, Google Cloud STT & Google Natural Language AI
-
-## Demo
-Use our [API playground](https://docs.exemplary.ai/playground) to visually build an api call. Use your choice of providers and couple them with NLP & NLU tasks.
-<p align="center">
-<img width="100%" alt="How it works" src=".github/images/playground-demo.gif">
-</p>
-
 ## Roadmap
 
 **Short term (next 6 months)**
