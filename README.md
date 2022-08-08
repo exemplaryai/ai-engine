@@ -138,7 +138,7 @@ We frequently add new providers!
 
 Issues are inevitable. When you have one, our entire team is around to help
 
-- 💬 Reach us and the community on [Discord](https://discord.gg/rBTTVJp)
+- 💬 Reach us and the community on [Discord](https://discord.gg/8hyZqYmsZR)
 - 📄 Find a solution in our [Documentation](https://docs.exemplary.ai)
 - ⚠️ Open an issue right here on [GitHub](https://github.com/exemplaryai/ai-engine/issues/new/choose)
 
