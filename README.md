@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://docs.exemplary.ai/?utm_source=github">
+  <a href="https://exemplary.ai/docs">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/exemplaryai/ai-engine/main/.github/images/logo-dark.png">
       <img alt="exemplary.ai logo" width="230" src="https://raw.githubusercontent.com/exemplaryai/ai-engine/main/.github/images/logo.png">
@@ -13,9 +13,9 @@
 </p>
 
 <h4 align="center">
-  <b><a href="https://docs.exemplary.ai/playground">Try live demo</a></b>
+  <b><a href="https://exemplary.ai/docs/playground">Try live demo</a></b>
   •
-  <a href="https://docs.exemplary.ai/?utm_source=github">Documentation</a>
+  <a href="https://exemplary.ai/docs">Documentation</a>
   •
     <a href="#roadmap">Roadmap</a>
   •
@@ -27,12 +27,12 @@
 </p>
 
 ## Demo
-Use our [API playground](https://docs.exemplary.ai/playground) to visually build an api call. Use your choice of providers and couple them with NLP & NLU tasks.
+Use our [API playground](https://exemplary.ai/docs/playground) to visually build an api call. Use your choice of providers and couple them with NLP & NLU tasks.
 <p align="center">
 <img width="100%" alt="How it works" src=".github/images/playground-demo.gif">
 </p>
 
-> :information_source: **Release Schedule**: We're set to release our code by Oct 1st, 2022 under the [Apache License 2.0](LICENSE). For early access, email us at [hello@exemplary.ai](mailto:hello@exemplary.ai)
+> :information_source: **Release Schedule**: This repo will house all the connection adapters. We're set to release our code by Nov 10th, 2022 under the [Apache License 2.0](LICENSE). For early access, email us at [hello@exemplary.ai](mailto:hello@exemplary.ai)
 
 At exemplary.ai, we're on a mission to help developers build Conversational AI apps faster, leverage advances in language technology, with the help of our API & Toolkit.
 
@@ -41,7 +41,6 @@ At exemplary.ai, we're on a mission to help developers build Conversational AI a
 - **Use the best technology for the job** Whether mitigating downtime, or benchmarking accuracy, with this API, leveraging the strengths of different providers is now easy. Try out new models and keep up to date on new features from different providers.
 - **Effortless ML pipelines for anyone** Pipeline ASR and NLP tasks by simply stating the tasks you want, and the API will stitch them together while abstracting away provider specific job handling and callback mechanisms.
 - **Standardized transcript formats** An open, standardized format, with adapters built for each provider, keeps this API maintainable and extensible. Easily add new Providers and functionality that integrates nicely with the rest of the API and pipelines.
-- **Build faster** *(coming soon)* With pre-built UI and components, you can create the app faster.
 - **Extensible and Open** Help contribute and build open adapters, and use our flexible API format to stay at the cutting edge.
 
 ## Quick Start
@@ -77,7 +76,7 @@ To run it locally on your dev environment, run:
 yarn start
 ```
 
-Alternatively, get started instantly with our [exemplary.ai cloud offering](https://docs.exemplary.ai/signup) **_(Coming Soon)_**
+Alternatively, get started instantly with our [exemplary.ai cloud offering](https://exemplary.ai/docs/signup) **_(Coming Soon)_**
 
 #### Usage
 ```bash
@@ -97,7 +96,7 @@ curl --location --request POST 'http://localhost:4000/v1/transcript' \
 }'
 ```
 
-This requests creates a transcription job on a wav file, using `Deepgram` to obtain a transcript, along with speaker labels, punctuation, and with the language set to `en-US` (or a supported BCP 47 language code). Questions and Entities will be extracted using AWS Comprehend, while Sentiment will be extracted using Google Cloud Natural Language. You can read more about [language codes](https://docs.exemplary.ai/api-reference#language-codes), and additional options we expose to you for transcript creation at the [API Reference, here](https://docs.exemplary.ai/api-reference#create-a-new-transcription-job). Feel free to switch around the supported providers, and let the API abstract away the provider specific details.
+This requests creates a transcription job on a wav file, using `Deepgram` to obtain a transcript, along with speaker labels, punctuation, and with the language set to `en-US` (or a supported BCP 47 language code). Questions and Entities will be extracted using AWS Comprehend, while Sentiment will be extracted using Google Cloud Natural Language. You can read more about [language codes](https://exemplary.ai/docs/api-reference#language-codes), and additional options we expose to you for transcript creation at the [API Reference, here](https://exemplary.ai/docs/api-reference#create-a-new-transcription-job). Feel free to switch around the supported providers, and let the API abstract away the provider specific details.
 
 Query your created transcripts and their status:
 ```bash
@@ -106,7 +105,7 @@ curl --location --request GET 'http://localhost:4000/v1/transcript' \
 ```
 
 #### API Reference
-Check out our [API Reference here.](https://docs.exemplary.ai/#quick-start)
+Check out our [API Reference here.](https://exemplary.ai/docs/#quick-start)
 
 ## Features
 - A standardized, provider-agnostic response format to store transcripts and NLP results for all providers
@@ -139,7 +138,7 @@ We frequently add new providers!
 Issues are inevitable. When you have one, our entire team is around to help
 
 - 💬 Reach us and the community on [Discord](https://discord.gg/8hyZqYmsZR)
-- 📄 Find a solution in our [Documentation](https://docs.exemplary.ai)
+- 📄 Find a solution in our [Documentation](https://exemplary.ai/docs)
 - ⚠️ Open an issue right here on [GitHub](https://github.com/exemplaryai/ai-engine/issues/new/choose)
 
 
