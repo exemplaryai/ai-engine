@@ -32,7 +32,7 @@ Use our [API playground](https://exemplary.ai/docs/playground) to visually build
 <img width="100%" alt="How it works" src=".github/images/playground-demo.gif">
 </p>
 
-> :information_source: **Release Schedule**: This repo will house all the connection adapters. We're set to release our code by Nov 10th, 2022 under the [Apache License 2.0](LICENSE). For early access, email us at [hello@exemplary.ai](mailto:hello@exemplary.ai)
+> :information_source: **Release Schedule**: This repo will house all the connection adapters. We're set to release our code before end of Q1 2023 under the [Apache License 2.0](LICENSE). For early access, email us at [hello@exemplary.ai](mailto:hello@exemplary.ai)
 
 At exemplary.ai, we're on a mission to help developers build Conversational AI apps faster, leverage advances in language technology, with the help of our API & Toolkit.
 
